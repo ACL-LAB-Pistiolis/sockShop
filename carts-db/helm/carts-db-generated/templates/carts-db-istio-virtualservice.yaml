@@ -8,9 +8,9 @@ spec:
   - public-gateway.istio-system
   - mesh
   hosts:
-  - carts-db.sockshop-staging.104.155.21.61.xip.io
+  - carts-db.sockshop-production.104.155.21.61.xip.io
   - carts-db
   http:
   - route:
     - destination:
-        host: carts-db.sockshop-staging.svc.cluster.local
+        host: carts-db.sockshop-production.svc.cluster.local
